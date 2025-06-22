@@ -1,0 +1,79 @@
+/* hal-dashboard */
+
+/* hal-tahuntransaksi */
+
+/* hal-bulantransaksi */
+
+/* hal-datatransaksi */
+#search-container {
+    display: flex;
+    padding-left: 5em;
+}
+
+#search-container button {
+    margin-top: 0 !important;
+}
+/* hal-edittransaksi */
+
+/* universal */
+#wrapper {
+    padding-top: 0 !important;
+    margin: 1em;
+}
+
+header {
+    padding-bottom: 1em;
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0.5em;
+}
+
+.back-button {
+    margin-left: 0.8em;
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.btn-daftar {
+    text-align: center;
+}
+
+.btn-daftar a button {
+    height: 3em;
+    margin: 0.25em;
+}
+
+/* style navbar */
+.menu-toggle {
+    cursor: pointer;
+}
+
+#sidebar {
+    width: 250px;
+    height: 100%;
+    background: rgba(196, 225, 255, 0.85);
+    color: black;
+    position: absolute;
+    top: 0;
+    left: -250px;
+    padding: 1rem;
+    transition: left 0.3s ease;
+    border-radius: 0 8px 8px 0;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#sidebar.active {
+    left: 0;
+    z-index: 9999;
+}
+
+.blue-light {
+  background-color: #d9f1ff;
+}
